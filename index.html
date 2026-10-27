@@ -1,0 +1,48 @@
+<!doctype html>
+<html lang="vi">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+  <meta name="theme-color" content="#0b1530" />
+  <title>FPT University Đà Nẵng · Campus 3D</title>
+  <meta name="description" content="Khám phá khuôn viên FPT University Đà Nẵng trong không gian 3D tương tác." />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
+</head>
+<body>
+  <div id="stage">
+    <canvas id="c" aria-label="Mô hình 3D khuôn viên"></canvas>
+
+    <div class="hud">
+      <header class="topbar glass">
+        <div class="brand">
+          <span class="logo" aria-hidden="true"><i></i><i></i><i></i></span>
+          <div class="brand-text"><b id="campusName">FPT University</b><small id="tagline">Campus 3D</small></div>
+        </div>
+        <nav class="views" id="views" aria-label="Góc nhìn"></nav>
+        <a class="cta" id="cta" target="_blank" rel="noopener">Đăng ký tư vấn</a>
+      </header>
+
+      <div class="dock">
+        <div class="seg glass" id="weather" role="group" aria-label="Thời tiết"></div>
+        <div class="tools glass" id="tools"></div>
+      </div>
+
+      <aside class="card glass" id="card" hidden aria-live="polite"></aside>
+      <div class="badge" id="fps" hidden></div>
+    </div>
+
+    <div class="loading" id="loading">
+      <div class="loading-inner">
+        <span class="logo big" aria-hidden="true"><i></i><i></i><i></i></span>
+        <h1>Campus 3D</h1>
+        <div class="bar"><i id="loadbar"></i></div>
+        <p id="loadtip">Kéo để xoay · Cuộn/chụm để phóng to · Bấm vào tòa nhà để xem thông tin</p>
+      </div>
+    </div>
+  </div>
+  <div class="rotate-msg">Xoay dọc điện thoại để xem đẹp nhất</div>
+  <script type="module" src="/src/main.js"></script>
+</body>
+</html>

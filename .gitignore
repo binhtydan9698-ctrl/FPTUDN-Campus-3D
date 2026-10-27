@@ -1,0 +1,18 @@
+node_modules/
+dist/
+.vercel/
+
+# Blender: bản sao lưu tự động và cache Python
+blender/*.blend1
+__pycache__/
+
+# File sinh tự động khi build (npm run prepare-assets)
+public/draco/
+public/data/campus-data.json
+
+# File tạm khi Excel đang mở
+~$*.xlsx
+
+.claude/settings.local.json
+.DS_Store
+Thumbs.db
