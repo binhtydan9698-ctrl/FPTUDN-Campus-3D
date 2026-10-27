@@ -1,6 +1,7 @@
 node_modules/
 dist/
 .vercel/
+logs/
 
 # Blender: bản sao lưu tự động và cache Python
 blender/*.blend1

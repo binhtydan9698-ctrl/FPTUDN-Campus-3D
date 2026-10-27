@@ -9,6 +9,7 @@ Diorama 3D khuôn viên FPT University Đà Nẵng phục vụ tuyển sinh. Mô
 - **Không tự bịa số liệu thật** (diện tích, số tầng, ngành). Chưa có thì để "(cần cập nhật)".
 - **Mã tòa (A, B, C...)** nối Excel với mô hình qua Empty `BLD_<Mã>` trong Blender. Đổi mã ở một bên thì phải đổi cả bên kia.
 - **Tên vật liệu trong Blender là hợp đồng với web:** `Foliage*` có gió, `Water`/`PoolWater` có shader nước, `Window` và `LampBulb` sáng ban đêm. Đổi tên thì phải sửa `src/scene/world.js`.
+- **Tự động deploy:** `tools/auto-sync.mjs` chạy ngầm (Startup của Windows), tự commit và push mỗi khi `data/campus-data.xlsx` hoặc `public/models/*` thay đổi. Repo: github.com/binhtydan9698-ctrl/FPTUDN-Campus-3D. Vercel build từ nhánh `main`.
 - **Web chỉ để xem.** Không thêm chức năng sửa dữ liệu phía người xem. Chỉ chủ dự án chỉnh qua Excel/Google Sheet rồi deploy.
 
 ## Lệnh
