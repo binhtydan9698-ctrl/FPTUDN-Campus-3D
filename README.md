@@ -1,5 +1,7 @@
 # FPT University Đà Nẵng · Campus 3D
 
+**Xem trực tuyến: https://fptu-3d.vercel.app**
+
 Mô hình 3D tương tác của khuôn viên, phục vụ tuyển sinh. Xem được trên mọi thiết bị:
 - Điện thoại hiển thị khung dọc 9:16.
 - Máy tính hiển thị khung ngang 16:9.
